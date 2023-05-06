@@ -19,10 +19,8 @@
 
 .select-modal {
   position: fixed;
-  display: grid;
   width: 100%;
   height: 30%;
-  grid-template-columns: repeat(4, 25%);
   background: #ffffff;
   top: 70%;
   left: 0;
@@ -44,12 +42,4 @@
   to {
     transform: translateY(0);
   }
-}
-
-.data-icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
 }
